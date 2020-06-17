@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+  HTML for Bestreads Assignment - CSE 154 HW4.
+  am modifying this structure for a private project
+  DO NOT MODIFY THIS HTML. MODIFICATIONS MAKE YOU INELIGIBLE FOR FULL CREDIT
+  DO NOT ADD A HEADER COMMENT TO THIS FILE
+-->
+
+<html lang="en">
+  <head>
+    <title>All online games</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div>Online games for quarantine</div><button id="home">home</button>
+    </header>
+    <main>
+      <!-- Error View -->
+      <h3 id="err-text" class="hidden">
+        Something went wrong on our service, please try again later.
+      </h3>
+      <section id="option-view">
+        <label># of Players:</label><input type="number" id="players" value="0">
+        <button id="enter">enter</button>
+      </section>
+
+      <section id="book-data">
+        <!-- Book List View -->
+        <section id="all-games"></section>
+        <section id="table-view"></section>
+      </section>
+    </main>
+  </body>
+</html>
