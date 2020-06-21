@@ -9,21 +9,8 @@
 (function() {
 
   window.addEventListener("load", starter);
-  const text = '{ "games" : [' +
-  '{ "gameName":"Battleship" , "description":"The infamous 2-player guessing game" ,"minPlayers":"2"' +
-  ', "maxPlayers":"2", "link":"https://papergames.io/en/battleship/", "image":"battleship" },' +
-  '{ "gameName":"Secret Hitler" , "description":"A social deduction game where you hunt facists" ,"minPlayers":"5"' +
-  ', "maxPlayers":"10", "link":"https://secret-hitler.com/", "image":"secret-hitler" },' +
-  '{ "gameName":"Jackbox 1: Drawful" , "description":"Hilarious drawing and deception game" ,"minPlayers":"3"' +
-  ', "maxPlayers":"8", "link":"jackbox", "image":"drawful" },' +
-
-
-
-
-  '{ "gameName":"Avalon" , "description":"Knight-themed Social Deduction game" ,"minPlayers":"5"' +
-  ', "maxPlayers":"10", "link":"https://netgames.io/games/avalon/", "image":"avalon" } ]}'
-      ;
-  const gameArray = JSON.parse(text);
+  let gameArray = TEXT;
+  console.log(TEXT);
 
 
   /**
@@ -32,10 +19,17 @@
    * no parameters, no returns
    */
   function starter() {
-    
-    console.log(text);
-    console.log(gameArray);
-    for (let i = 0; i < gameArray.games.length; i++) {
+
+    //reader.onload = function(){
+      //var dataURL = reader.result;
+      //var output = document.getElementById('output');
+      //output.src = dataURL;
+    //};
+    //reader.readAsDataURL(input.files[0]);
+
+
+
+    for (let i = 0; i < gameArray.length; i++) {
       console.log(i);
       addGames(i);
     }
@@ -48,9 +42,9 @@
   function addAllGames(gameArray, players){
     id("all-games").innerHTML = "";
     players = parseInt(players);
-    for (let i = 0; i < gameArray.games.length; i++) {
-      let min = parseInt(gameArray.games[i].minPlayers);
-      let max = parseInt(gameArray.games[i].maxPlayers);
+    for (let i = 0; i < gameArray.length; i++) {
+      let min = parseInt(gameArray[i].minPlayers);
+      let max = parseInt(gameArray[i].maxPlayers);
       console.log("external "+i);
       if(players >= min && players <= max){
         console.log("internal "+i);
@@ -62,17 +56,17 @@
   function addGames(i){
     console.log(i);
     let link = document.createElement("a");
-    if(gameArray.games[i].link !== "jackbox"){
-      link.href = gameArray.games[i].link;
+    if(gameArray[i].link !== "jackbox"){
+      link.href = gameArray[i].link;
     } else {
       link.href = "https://www.jackboxgames.com/games/";
     }
     let div = document.createElement("div");
-    let gameName = gameArray.games[i].gameName;
+    let gameName = gameArray[i].gamename;
     let text = document.createElement("p");
-    text.innerHTML = gameName + ":" +"<br>" + gameArray.games[i].description;
+    text.innerHTML = gameName + ":" +"<br>" + gameArray[i].description;
     let image = document.createElement("img");
-    image.src = "images/" + gameArray.games[i].image + ".jpg";
+    image.src = "images/" + gameArray[i].image + ".jpg";
     div.id = gameName;
     image.alt = gameName;
     image.id = "pic_" + gameName;

@@ -1,0 +1,9 @@
+gamename,description,minPlayers,MaxPlayers,link,image
+Avalon,Knight-themed Social Deduction game,5,10,https://netgames.io/games/avalon/,avalon
+Battleship,The infamous 2-player guessing game,2,2,https://papergames.io/en/battleship/,battleship
+Jackbox 1: Drawful,Hilarious drawing and deception game,5,8,jackbox,drawful
+Jackbox 1: Fibbage XL,Aim to decieve friends while finding the truth,2,8,jackbox,fibbageXL
+Jackbox 1: Lie Swatter,Find the truth from the flies and swat it down,1,100,jackbox,lie-swatter
+Jackbox 1: Word Spud,Form strange word clouds,2,8,jackbox,word-spud
+Jackbox 1: You Don't Know Jack,A terribly fun trivia game,1,4,jackbox,you-dont-know-jack
+Secret Hitler,A social deduction game where you hunt facists,5,10,https://secret-hitler.com/,secret-hitler
