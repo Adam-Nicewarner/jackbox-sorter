@@ -42,9 +42,11 @@
   function addAllGames(gameArray, players){
     id("all-games").innerHTML = "";
     players = parseInt(players);
+    console.log(players);
     for (let i = 0; i < gameArray.length; i++) {
-      let min = parseInt(gameArray[i].minPlayers);
-      let max = parseInt(gameArray[i].maxPlayers);
+      let min = gameArray[i].minPlayers;
+      let max = gameArray[i].maxPlayers;
+      console.log("min: " + min + "max: " + max);
       console.log("external "+i);
       if(players >= min && players <= max){
         console.log("internal "+i);
@@ -79,7 +81,6 @@
 
   function clickEnter(){
     console.log("player input value:" + id("players").value);  
-
     addAllGames(gameArray, id("players").value);
     
 

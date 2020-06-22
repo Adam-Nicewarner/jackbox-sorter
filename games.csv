@@ -1,4 +1,4 @@
-gamename,description,minPlayers,MaxPlayers,link,image
+gamename,description,minPlayers,maxPlayers,link,image
 Avalon,Knight-themed Social Deduction game,5,10,https://netgames.io/games/avalon/,avalon
 Battleship,The infamous 2-player guessing game,2,2,https://papergames.io/en/battleship/,battleship
 Jackbox 1: Drawful,Hilarious drawing and deception game,5,8,jackbox,drawful
@@ -6,4 +6,19 @@ Jackbox 1: Fibbage XL,Aim to decieve friends while finding the truth,2,8,jackbox
 Jackbox 1: Lie Swatter,Find the truth from the flies and swat it down,1,100,jackbox,lie-swatter
 Jackbox 1: Word Spud,Form strange word clouds,2,8,jackbox,word-spud
 Jackbox 1: You Don't Know Jack,A terribly fun trivia game,1,4,jackbox,you-dont-know-jack
+Jackbox 2: Bidiots,"Draw and bid on ""Works of Art"" made by you and friends",2,8,jackbox,bidiots
+Jackbox 2: Bomb Corp,Cooperative bomb defusal game,1,4,jackbox,bomb-corp
+Jackbox 2: Earwax,Create an auditory experience to shock your friends,3,8,jackbox,earwax
+Jackbox 2: Fibbage 2,Aim to decieve friends while finding the truth…AGAIN,2,8,jackbox,fibbage-2
+Jackbox 2: Quiplash XL,Make your friends laugh enough to pick your answer,3,8,jackbox,quiplashXL
+Jackbox 3: Fakin' It,find the faker in your group by using social deduction,3,6,jackbox,fakin-it
+Jackbox 3: Guesspionage,Guess the percentage of strange facts,2,8,jackbox,guesspionage
+Jackbox 3: Quiplash 2,"Quiplash, but with custom episodes and cartoons",3,8,jackbox,quiplash-2
+Jackbox 3: Tee K. O.,Create the best custom T-shirts to amuse your friends,3,8,jackbox,tee-k-o
+Jackbox 3: Trivia Murder Party,A murderously fun trivia game,1,8,jackbox,trivia-murder-party
+Jackbox 4: Bracketeering,Have dumb arguments about dumber questions,3,16,jackbox,bracketeering
+Jackbox 4: Civic Doodle,Commit cooperative graffiti with friends and vote on the best,3,8,jackbox,civic-doodle
+Jackbox 4: Fibbage 3,"Fibbage, but with personalized options for close friends",2,8,jackbox,fibbage-3
+Jackbox 4: Monster Seeking Monster,Multiplayer dating sim where you're all secret monsters,3,7,jackbox,monster-seeking-monster
+Jackbox 4: Survive the Internet,Try to make your friends tweet strange things,3,8,jackbox,survive-the-internet
 Secret Hitler,A social deduction game where you hunt facists,5,10,https://secret-hitler.com/,secret-hitler
