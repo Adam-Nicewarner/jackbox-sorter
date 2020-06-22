@@ -90,5 +90,14 @@
 
   }
 
+  /**
+   * This function is the default id function
+   * @param {string} id - an id string used by html
+   * @return {element} element gotten by getElementById
+   */
+  function id(id) {
+    return document.getElementById(id);
+  }
+
 
 })();
