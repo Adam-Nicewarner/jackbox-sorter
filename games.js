@@ -1,7 +1,8 @@
 
 //sourced from excel file and 
 //http://www.convertcsv.com/csv-to-json.htm
-const TEXT = [
+const TEXT = 
+[
   {
     "gamename": "Avalon",
     "description": "Knight-themed Social Deduction game",
@@ -177,6 +178,86 @@ const TEXT = [
     "maxPlayers": 8,
     "link": "jackbox",
     "image": "survive-the-internet"
+  },
+  {
+    "gamename": "Jackbox 5: Mad Verse City",
+    "description": "Rap battle your friends for glory and bragging rights",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "link": "jackbox",
+    "image": "mad-verse-city"
+  },
+  {
+    "gamename": "Jackbox 5: Patently Stupid",
+    "description": "convince your friends to invest in your genius startup",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "link": "jackbox",
+    "image": "patently-stupid"
+  },
+  {
+    "gamename": "Jackbox 5: Split the Room",
+    "description": "Try to divide your friends opinions with one word",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "link": "jackbox",
+    "image": "split-the-room"
+  },
+  {
+    "gamename": "Jackbox 5: You Don't Know Jack-Full Stream",
+    "description": "Trivia game run by the corporation BinjPipe",
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "link": "jackbox",
+    "image": "you-dont-know-jack-full-stream"
+  },
+  {
+    "gamename": "Jackbox 5: Zeeple Dome",
+    "description": "Space-themed platforming fighting game",
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "link": "jackbox",
+    "image": "zeeple-dome"
+  },
+  {
+    "gamename": "Jackbox 6: Dictionarium",
+    "description": "Define strange words and give definitions stranger words",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "link": "jackbox",
+    "image": "dictionarium"
+  },
+  {
+    "gamename": "Jackbox 6: Joke Boat",
+    "description": "Strange stand-up to survive on a sinking ship",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "link": "jackbox",
+    "image": "joke-boat"
+  },
+  {
+    "gamename": "Jackbox 6: Push The Button",
+    "description": "Try and find alien infiltrators in your spaceship",
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "link": "jackbox",
+    "image": "push-the-button"
+  },
+  {
+    "gamename": "Jackbox 6: Role Models",
+    "description": "Pigeonhole your friends into roles",
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "link": "jackbox",
+    "image": "role-models"
+  },
+  {
+    "gamename": "Jackbox 6: Trivia Murder Party 2",
+    "description": "Murderously fun trivia game",
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "link": "jackbox",
+    "image": "trivia-murder-party-2"
   },
   {
     "gamename": "Secret Hitler",
