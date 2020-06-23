@@ -4,12 +4,60 @@
 const TEXT = 
 [
   {
+    "gamename": "13 Days: The Cuban Missile Crisis",
+    "description": "1v1 history-themed strategy game",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "link": "https://chantry-games.com/ ",
+    "image": "13-days"
+  },
+  {
+    "gamename": "Acquire",
+    "description": "tile placement business strategy game",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "link": "https://acquire.tlstyer.com/",
+    "image": "acquire"
+  },
+  {
+    "gamename": "Advanced Civilization",
+    "description": "Mediterranean Empire-building game for history buffs and novices alike",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "link": "http://civ.rol-play.com ",
+    "image": "advanced-civilization"
+  },
+  {
+    "gamename": "Agricola",
+    "description": "Compete to build the best farm",
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "link": "http://play-agricola.com/",
+    "image": "agricola"
+  },
+  {
     "gamename": "Avalon",
     "description": "Knight-themed Social Deduction game",
     "minPlayers": 5,
     "maxPlayers": 10,
     "link": "https://netgames.io/games/avalon/",
     "image": "avalon"
+  },
+  {
+    "gamename": "Azul",
+    "description": "strategic tile placement game",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "link": "https://azee.mattle.online/welcome",
+    "image": "azul"
+  },
+  {
+    "gamename": "Backgammon",
+    "description": "It's backgammon, the game everyone remembers but doesn't know",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "link": "https://vipgames.com/backgammon/",
+    "image": "backgammon"
   },
   {
     "gamename": "Battleship",
@@ -266,6 +314,14 @@ const TEXT =
     "maxPlayers": 10,
     "link": "https://secret-hitler.com/",
     "image": "secret-hitler"
+  },
+  {
+    "gamename": "Seven Wonders Duel",
+    "description": "1v1 version of empire-building drafting game 7 Wonders",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "link": "https://sevenee.mattle.online/welcome",
+    "image": "seven-wonders-duel"
   }
  ]
     ;

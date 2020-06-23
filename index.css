@@ -21,7 +21,7 @@ header {
   box-shadow: 0 5px 5px lightgray;
   height: 104px;
   width: 100%;
-  position: fixed;
+  position: absolute;
 }
 
 header > div {
