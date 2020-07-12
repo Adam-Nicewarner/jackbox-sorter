@@ -44,8 +44,8 @@
     players = parseInt(players);
     console.log(players);
     for (let i = 0; i < gameArray.length; i++) {
-      let min = gameArray[i].minPlayers;
-      let max = gameArray[i].maxPlayers;
+      let min = gameArray[i].min;
+      let max = gameArray[i].max;
       console.log("min: " + min + "max: " + max);
       console.log("external "+i);
       if(players >= min && players <= max){
