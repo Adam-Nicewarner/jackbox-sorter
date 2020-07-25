@@ -4,6 +4,7 @@
  * Section: CSE 154 AJ
  *
  * This is the JS to implement the UI
+ * test version to change to album html
  */
 "use strict";
 (function() {
@@ -28,7 +29,7 @@
     //reader.readAsDataURL(input.files[0]);
 
 
-
+    id("all-games").innerHTML = "";
     for (let i = 0; i < gameArray.length; i++) {
       console.log(i);
       addGames(i);
@@ -72,7 +73,6 @@
     div.id = gameName;
     image.alt = gameName;
     image.id = "pic_" + gameName;
-    image.classList.add("sprite");
     link.appendChild(div);
     div.appendChild(image);
     div.appendChild(text);
@@ -83,10 +83,6 @@
     console.log("player input value:" + id("players").value);  
     addAllGames(gameArray, id("players").value);
     
-
-  }
-
-  function homeButton(){
 
   }
 
