@@ -37,23 +37,21 @@ footer p {
 }
 
 #all-games {
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: baseline;
   flex-wrap: wrap;
 }
 
 #all-games div {
   background-color: #f4f1eb;
-  border-radius: 5px;
-  box-shadow: 0 0 15px gray;
-  margin: 20px;
+  box-shadow: 0 0 5px gray;
   padding: 5px 5px 0px 5px;
-  width: 200px;
+  width: 250px;
   height: 330px;
 }
 
 /* book cover images */
 #all-games img {
   height: 220px;
-  width: 190px;
+  width: 240px;
 }
