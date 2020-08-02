@@ -4,7 +4,6 @@
  * Section: CSE 154 AJ
  *
  * This is the JS to implement the UI
- * test version to change to album html
  */
 "use strict";
 (function() {
@@ -47,11 +46,18 @@
     for (let i = 0; i < gameArray.length; i++) {
       let min = gameArray[i].min;
       let max = gameArray[i].max;
+      console.log(id("inc_jackbox").checked);
+      let jackbox = gameArray[i].genre == "JACKBOX";
       console.log("min: " + min + "max: " + max);
       console.log("external "+i);
-      if(players >= min && players <= max){
+      if(players >= min && players <= max && id("inc_jackbox").checked){
         console.log("internal "+i);
         addGames(i);
+      } else if(players >= min && players <= max && !id("inc_jackbox").checked) {
+        if(!jackbox){
+          console.log("internal "+i);
+          addGames(i);
+        }
       }
     }
   }
