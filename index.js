@@ -50,11 +50,11 @@
       let jackbox = gameArray[i].genre == "JACKBOX";
       console.log("min: " + min + "max: " + max);
       console.log("external "+i);
-      if(players >= min && players <= max && id("inc_jackbox").checked){
+      if(players >= min && players <= max && !id("inc_jackbox").checked){
         console.log("internal "+i);
         addGames(i);
-      } else if(players >= min && players <= max && !id("inc_jackbox").checked) {
-        if(!jackbox){
+      } else if(players >= min && players <= max && id("inc_jackbox").checked) {
+        if(jackbox){
           console.log("internal "+i);
           addGames(i);
         }
