@@ -46,12 +46,12 @@ footer p {
   background-color: #f4f1eb;
   box-shadow: 0 0 5px gray;
   padding: 5px 5px 0px 5px;
-  width: 250px;
+  width: 350px;
   height: 330px;
 }
 
 /* book cover images */
 #all-games img {
   height: 220px;
-  width: 240px;
+  width: 340px;
 }

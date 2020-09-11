@@ -19,15 +19,11 @@
    * no parameters, no returns
    */
   function starter() {
-
-    //reader.onload = function(){
-      //var dataURL = reader.result;
-      //var output = document.getElementById('output');
-      //output.src = dataURL;
-    //};
-    //reader.readAsDataURL(input.files[0]);
-
-
+    /**
+     * what options do I want to add:
+     * sort/filter by jackbox party pack number
+     * something that shows player num/range and party pack number in the textbox
+   */
     id("all-games").innerHTML = "";
     for (let i = 0; i < gameArray.length; i++) {
       console.log(i);
