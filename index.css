@@ -40,6 +40,7 @@ footer p {
   justify-content: center;
   align-items: baseline;
   flex-wrap: wrap;
+  position: relative;
 }
 
 #all-games div {
@@ -50,8 +51,75 @@ footer p {
   height: 330px;
 }
 
-/* book cover images */
 #all-games img {
   height: 220px;
   width: 340px;
+}
+
+.ranges {
+  vertical-align: text-bottom;
+  text-align: right;
+  font-size: large;
+  font-weight: bold;
+}
+
+.parties {
+  display:none;
+}
+
+#party-pack label {
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+  filter:grayscale(100%);
+  display:inline-block;
+  padding: 0 0 0 0px;
+}
+
+#jack_1 {
+  background:url('images/J1.jpg') no-repeat ;
+}
+
+#box_1:checked + label{
+  filter:grayscale(0%);
+}
+
+#jack_2 {
+  background:url('images/J2.jpg') no-repeat ;
+}
+
+#box_2:checked + label{
+  filter:grayscale(0%);
+}
+
+#jack_3 {
+  background:url('images/J3.jpg') no-repeat ;
+}
+
+#box_3:checked + label{
+  filter:grayscale(0%);
+}
+
+#jack_4 {
+  background:url('images/J4.jpg') no-repeat ;
+}
+
+#box_4:checked + label{
+  filter:grayscale(0%);
+}
+
+#jack_5 {
+  background:url('images/J5.jpg') no-repeat ;
+}
+
+#box_5:checked + label{
+  filter:grayscale(0%);
+}
+
+#jack_6 {
+  background:url('images/J6.jpg') no-repeat ;
+}
+
+#box_6:checked + label{
+  filter:grayscale(0%);
 }

@@ -11,6 +11,7 @@
   window.addEventListener("load", starter);
   let gameArray = TEXT;
   console.log(TEXT);
+  let packArray = [true, true, true, true, true, true];
 
 
   /**
@@ -36,56 +37,48 @@
   }
 
   function addAllGames(gameArray, players){
+    packArray = [id("box_1").checked,id("box_2").checked,id("box_3").checked,id("box_4").checked,id("box_5").checked,id("box_6").checked]
     id("all-games").innerHTML = "";
     players = parseInt(players);
     console.log(players);
     for (let i = 0; i < gameArray.length; i++) {
       let min = gameArray[i].min;
       let max = gameArray[i].max;
-      console.log(id("inc_jackbox").checked);
-      let jackbox = gameArray[i].genre == "JACKBOX";
-      console.log("min: " + min + "max: " + max);
-      console.log("external "+i);
-      if(players >= min && players <= max && !id("inc_jackbox").checked){
-        console.log("internal "+i);
+      if(players >= min && players <= max){
         addGames(i);
-      } else if(players >= min && players <= max && id("inc_jackbox").checked) {
-        if(jackbox){
-          console.log("internal "+i);
-          addGames(i);
-        }
       }
     }
   }
 
   function addGames(i){
     console.log(i);
-    let link = document.createElement("a");
-    if(gameArray[i].link !== "jackbox"){
-      link.href = gameArray[i].link;
-    } else {
-      link.href = "https://www.jackboxgames.com/games/";
+    console.log(packArray[gameArray[i].pack]-1);
+    if(packArray[gameArray[i].pack-1]){
+      console.log(i);
+      let link = document.createElement("a");
+      let div = document.createElement("div");
+      let gameName = gameArray[i].gamename;
+      let text = document.createElement("p");
+      text.innerHTML = gameName + ":" +"<br>" + gameArray[i].description ;
+      let range = document.createElement("p");
+      range.innerHTML =  "range: " + gameArray[i].min + "-" + gameArray[i].max + "p";
+      range.classList.add("ranges");
+      let image = document.createElement("img");
+      image.src = "images/" + gameArray[i].image + ".jpg";
+      div.id = gameName;
+      image.alt = gameName;
+      image.id = "pic_" + gameName;
+      link.appendChild(div);
+      div.appendChild(image);
+      text.appendChild(range);
+      div.appendChild(text);
+      id("all-games").appendChild(link);
     }
-    let div = document.createElement("div");
-    let gameName = gameArray[i].gamename;
-    let text = document.createElement("p");
-    text.innerHTML = gameName + ":" +"<br>" + gameArray[i].description;
-    let image = document.createElement("img");
-    image.src = "images/" + gameArray[i].image + ".jpg";
-    div.id = gameName;
-    image.alt = gameName;
-    image.id = "pic_" + gameName;
-    link.appendChild(div);
-    div.appendChild(image);
-    div.appendChild(text);
-    id("all-games").appendChild(link);
   }
 
   function clickEnter(){
     console.log("player input value:" + id("players").value);  
     addAllGames(gameArray, id("players").value);
-    
-
   }
 
   /**
