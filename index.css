@@ -44,6 +44,8 @@ footer p {
 }
 
 #all-games div {
+  position: relative;
+  float:left;
   background-color: #f4f1eb;
   box-shadow: 0 0 5px gray;
   padding: 5px 5px 0px 5px;
@@ -57,7 +59,9 @@ footer p {
 }
 
 .ranges {
-  vertical-align: text-bottom;
+  position: absolute;
+  bottom: 0;
+  right: 5px;
   text-align: right;
   font-size: large;
   font-weight: bold;
