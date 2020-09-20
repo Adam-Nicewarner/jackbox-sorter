@@ -63,6 +63,9 @@
       let range = document.createElement("p");
       range.innerHTML =  "range: " + gameArray[i].min + "-" + gameArray[i].max + "p";
       range.classList.add("ranges");
+      let pack_num = document.createElement("p");
+      pack_num.innerHTML = "Party Pack: " + gameArray[i].pack;
+      pack_num.classList.add("pack_num");
       let image = document.createElement("img");
       image.src = "images/" + gameArray[i].image + ".jpg";
       div.id = gameName;
@@ -70,6 +73,7 @@
       image.id = "pic_" + gameName;
       link.appendChild(div);
       div.appendChild(image);
+      text.appendChild(pack_num);
       text.appendChild(range);
       div.appendChild(text);
       id("all-games").appendChild(link);
