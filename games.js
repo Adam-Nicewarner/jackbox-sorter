@@ -48,7 +48,7 @@ const TEXT =
     "gamename": "Bidiots",
     "description": "Draw and bid on \"Works of Art\" made by you and friends",
     "min": 2,
-    "max": 8,
+    "max": 6,
     "image": "bidiots"
   },
   {
