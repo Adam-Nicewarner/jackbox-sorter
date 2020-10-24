@@ -242,6 +242,46 @@ const TEXT =
     "min": 1,
     "max": 8,
     "image": "trivia-murder-party-2"
+  },
+  {
+    "pack": 7,
+    "gamename": "Blather Round",
+    "description": "Describe your word with a very limited vocabulary",
+    "min": 2,
+    "max": 6,
+    "image": "blather-round"
+  },
+  {
+    "pack": 7,
+    "gamename": "Champ'd Up",
+    "description": "Create champions and force them to face off for strange titles",
+    "min": 3,
+    "max": 8,
+    "image": "champd-up"
+  },
+  {
+    "pack": 7,
+    "gamename": "Devil in the Details",
+    "description": "Collaborate with your friends to survive devil suburbia",
+    "min": 3,
+    "max": 8,
+    "image": "devil-in-the-details"
+  },
+  {
+    "pack": 7,
+    "gamename": "Quiplash 3",
+    "description": "It's quiplash for the 3rd time.",
+    "min": 3,
+    "max": 8,
+    "image": "quiplash-3"
+  },
+  {
+    "pack": 7,
+    "gamename": "Talking Points",
+    "description": "Intrigue your friends with an on-the-cuff presentation",
+    "min": 3,
+    "max": 8,
+    "image": "talking-points"
   }
  ]
  ;

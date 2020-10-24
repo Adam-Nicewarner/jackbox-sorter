@@ -11,7 +11,7 @@
   window.addEventListener("load", starter);
   let gameArray = TEXT;
   console.log(TEXT);
-  let packArray = [true, true, true, true, true, true];
+  let packArray = [true, true, true, true, true, true, true];
 
 
   /**
@@ -37,7 +37,7 @@
   }
 
   function addAllGames(gameArray, players){
-    packArray = [id("box_1").checked,id("box_2").checked,id("box_3").checked,id("box_4").checked,id("box_5").checked,id("box_6").checked]
+    packArray = [id("box_1").checked,id("box_2").checked,id("box_3").checked,id("box_4").checked,id("box_5").checked,id("box_6").checked,id("box_7").checked]
     id("all-games").innerHTML = "";
     players = parseInt(players);
     console.log(players);

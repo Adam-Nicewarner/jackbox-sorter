@@ -139,3 +139,11 @@ footer p {
 #box_6:checked + label{
   filter:grayscale(0%);
 }
+
+#jack_7 {
+  background:url('images/J7.JPG') no-repeat ;
+}
+
+#box_7:checked + label{
+  filter:grayscale(0%);
+}
